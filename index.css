@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.conteiner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.kalkuliator{
+    background-color: rgb(37, 37, 37);
+    padding: 26px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.calc-sreach{
+    width: 330px;
+    padding: 25px;
+    border:  none;
+    outline: none;
+    font-size: 45px;
+    text-align: right;
+    color: aliceblue;
+}
+.buttons{
+    display: grid;
+    grid-template-areas:
+    "ac plus-minus present division"
+    "sevsn nain ten multiply "
+    "fo faiv sixs minus"
+    "van to sri plus"
+    "zero zero dot equal";
+    grid-gap: 7px;
+}  
+
+.btn{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: rgb(46, 46, 46);
+font-size: 25px;
+color: rgb(243, 245, 245);
+margin: 10px;
+text-align: center;
+line-height: 60px;
+cursor: pointer;
+user-select: none;
+}
+.btn:hover {
+    filter: brightness(120%);
+}
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn .bg-grey{
+    background: #a6a6a6;
+}
+.btn .bg-orang{
+    background: #ff9501;
+}
+
+
+
+
+
+.hasil{
+    background-color: brown;
+    color: aliceblue;
+    width: 144px;
+}
+.anim{
+    background-color: brown;
+    color: aliceblue;
+    
+}
+.operator{
+    background-color: brown;
+    color: aliceblue;
+  
+}
